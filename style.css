@@ -1,0 +1,58 @@
+body{
+    font-family: 'Niconne', cursive;
+}
+
+/* STYLING VOOR HET MENU ZELF */
+#menu{
+ position: absolute;
+font-family: 'Niconne', cursive;
+font-size: 26px;
+background-color: rgba(180, 112, 36, 0.05);
+width:170px;
+height:650px;
+ padding:5px;
+
+/*border: 2px solid #B47024;*/
+border-style: solid;
+border-width: 27px 18px 27px 3px;
+-moz-border-image: url(../images/vlechters_border.gif) 27 18 27 3 repeat;
+-webkit-border-image: url(..images//vlechters_border.gif) 27 18 27 3 repeat;
+-o-border-image: url(../images/vlechters_border.gif) 27 18 27 3 repeat;
+border-image: url(../images/vlechters_border.gif) 27 18 27 3 fill repeat;
+margin:50px 0;
+text-align: center;
+}
+
+
+/* MENU TOGGLE BUTTON */
+.slide{
+    position:absolute;
+    top:0;
+    left:0;
+    width:58px;
+    height:56px;
+    padding:7px;
+    margin:5px 5px 5px 2px;
+}
+
+
+/* ??? 
+.header{
+    position:absolute;
+    top:0;
+    width:100%;
+    background-color:green;
+    outline:10px red;
+}
+*/
+
+
+/* STYLING VOOR HORIZONTALE LIJN */
+hr{
+    
+    border: 1.5px dotted #B47024;
+}
+
+p:hover{ 
+   color:#d49a9a
+}
